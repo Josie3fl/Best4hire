@@ -41,4 +41,18 @@ const searchGithubUser = async (username: string) => {
   }
 };
 
-export { searchGithub, searchGithubUser };
+const fetchCandidates = async () => {
+  try {
+    const response = await fetch('https://api.example.com/candidates'); // Replace with your actual API endpoint
+    const data = await response.json();
+    if (!response.ok) {
+      throw new Error('Failed to fetch candidates');
+    }
+    return data;
+  } catch (err) {
+    console.error('An error occurred while fetching candidates:', err);
+    return [];
+  }
+};
+
+export { searchGithub, searchGithubUser, fetchCandidates };

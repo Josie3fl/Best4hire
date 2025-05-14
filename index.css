@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #1402a8, #000040);
+    color: white;
+    text-align: center;
+  }
+  a {
+    color: lightblue;
+    text-decoration: none;
+  }
+  nav {
+    padding: 1em;
+  }

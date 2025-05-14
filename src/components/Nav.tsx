@@ -1,8 +1,8 @@
-const Nav = () => {
-  // TODO: Add necessary code to display the navigation bar and link between the pages
-  return (
-    <div>Nav</div>
-  )
-};
+import { Link } from "react-router-dom"; // Ensure you import Link from react-router-dom
 
-export default Nav;
+export const Nav = () => (
+  <nav style={{ padding: "1rem" }}>
+    <Link to="/" style={{ marginRight: "1rem", fontWeight: "bold" }}>Home</Link>
+    <Link to="/saved">Potential Candidates</Link>
+  </nav>
+);
