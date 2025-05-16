@@ -1,33 +1,26 @@
-# React + TypeScript + Vite
+# <Best4hire>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 
-* [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md), which uses [Babel](https://babeljs.io/) for Fast Refresh
-* [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc), which uses [SWC](https://swc.rs/) for Fast Refresh
+- What was your motivation?
+- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
+- What problem does it solve?
+- What did you learn?
+Best4hire came to fruition with the need for any "x, y or z" company in need for employess. In others words this app is made for recruitment purposes and to collect the best among those showing in the database. It solves the problem of constantly looking for people to hire in everyother platform, when you can have it all in one. I was still reminded that imports are the strongest and fastest when it comes to data communiaction between files and that token are actually not that easy to create if not in the right environment. 
 
-## Expanding the ESLint configuration
 
-If you're developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Installation
 
-* Configure the top-level `parserOptions` property as follows:
+To install this app you can click on the live link:
+Or you can visit my repo at: 
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Usage
 
-* Replace `plugin:@typescript-eslint/recommended` with `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`.
-* Optionally, add `plugin:@typescript-eslint/stylistic-type-checked`.
-* Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` and `plugin:react/jsx-runtime` to the `extends` list.
+Once in the live page the first thign you'll be able to see is the first candidate you will be able to select if you want them or not in you list. Next you can click on the "Potantial Candidates" section to verify the saved candidates and see the list of people previously saved.
+    ```
 
----
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+## Credits
+
+Thanks to TA Rene for the help cracking that token for me.

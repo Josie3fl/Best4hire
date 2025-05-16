@@ -43,8 +43,9 @@ const searchGithubUser = async (username: string) => {
 
 const fetchCandidates = async () => {
   try {
-    const response = await fetch('https://api.example.com/candidates'); // Replace with your actual API endpoint
+    const response = await fetch('https://api.github.com/users'); // Replace with your actual API endpoint
     const data = await response.json();
+    console.log('Data:', data);
     if (!response.ok) {
       throw new Error('Failed to fetch candidates');
     }
