@@ -14,7 +14,7 @@ Best4hire came to fruition with the need for any "x, y or z" company in need for
 ## Installation
 
 To install this app you can click on the live link:
-Or you can visit my repo at: 
+Or you can visit my repo at: https://github.com/Josie3fl/Best4hire
 
 ## Usage
 
